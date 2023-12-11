@@ -1,4 +1,5 @@
 #import <UIKit/UIKit.h>
+#import <Adjust/Adjust.h>
 
 //! Project version number for Plugin.
 FOUNDATION_EXPORT double PluginVersionNumber;

@@ -4,19 +4,26 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite App</title>
+    <title>Adjust Test App</title>
   </head>
   <body>
-    <h1>Advertising ID Test App</h1>
+    <h1>Adjust SDK Test</h1>
     <div>
-      <p>Advertising Status:&nbsp;</p>
+      <p>InitSDK:&nbsp;</p>
+      <strong id="txt-init-status">(none)</strong>
+      <button id="btn-init-btn">init</button>
+    </div>
+    <div>
+      <p>TrackEvent:&nbsp;</p>
       <strong id="txt-ad-status">(none)</strong>
+      <button id="btn-prompt-ad-tracking">track event</button>
     </div>
+
     <div>
-      <p>Advertising ID:&nbsp;</p>
-      <strong id="txt-ad-id">(none)</strong>
-    </div>
-    <button id="btn-prompt-ad-tracking">Prompt For Ad Tracking</button>
+        <p>GetAdid:&nbsp;</p>
+        <strong id="txt-ad-id">(none)</strong>
+        <button id="btn-get-ad-id">get</button>
+      </div>
     <div id="app"></div>
     <script type="module" src="/src/main.ts"></script>
   </body>
