@@ -77,8 +77,5 @@
     "android": {
       "src": "android"
     }
-  },
-  "dependencies": {
-    "adjust-capacitor-plugin": "file:"
   }
 }
