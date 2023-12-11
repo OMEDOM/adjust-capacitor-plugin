@@ -156,9 +156,9 @@
   integrity sha512-2WALfTl4xo2SkGCYRt6rDTFfk9R1czmBvUQy12gK2KuRKIpWEhcbbzy8EZXtz/jkRqHX8bFEc6FC1HjX4TUWYw==
 
 "adjust-capacitor-plugin@file:..":
-  version "0.0.2"
+  version "1.0.0"
   dependencies:
-    adjust-capacitor-plugin "file:../../../../Bolo/Library/Caches/Yarn/v6/npm-adjust-capacitor-plugin-0.0.2-14d7dfb1-283b-4fc3-b696-0627a397b6fe-1702275322662/node_modules/adjust-capacitor-plugin"
+    adjust-capacitor-plugin "file:../../../../Bolo/Library/Caches/Yarn/v6/npm-adjust-capacitor-plugin-1.0.0-9ce4add8-c009-4ebe-a815-1351efa0c0f9-1702280507967/node_modules/adjust-capacitor-plugin"
 
 ansi-regex@^5.0.1:
   version "5.0.1"

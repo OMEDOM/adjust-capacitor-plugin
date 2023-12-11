@@ -64,15 +64,15 @@ class AdjustSDKPlugin: Plugin() {
         }
     }
 
-    @PluginMethod
-    fun ping(call: PluginCall) {
-        val value = call.getString("value")
+    // @PluginMethod
+    // fun ping(call: PluginCall) {
+    //     val value = call.getString("value")
 
-        val ret = JSObject().apply {
-            put("value", value ?: "null")
-        }
-        call.resolve(ret)
-    }
+    //     val ret = JSObject().apply {
+    //         put("value", value ?: "null")
+    //     }
+    //     call.resolve(ret)
+    // }
 
     @PluginMethod
     fun  initSDK(call: PluginCall) {

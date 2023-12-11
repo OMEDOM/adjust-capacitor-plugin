@@ -11,13 +11,13 @@ public class AdjustSDKPlugin: CAPPlugin, AdjustDelegate {
     
     let adjustTag = "AdjustSDKPlugin"
 
-    @objc func echo(_ call: CAPPluginCall) {
-        let value = call.getString("value") ?? ""
-        print(value)
-        call.resolve([
-            "value": value
-        ])
-    }
+    // @objc func echo(_ call: CAPPluginCall) {
+    //     let value = call.getString("value") ?? ""
+    //     print(value)
+    //     call.resolve([
+    //         "value": value
+    //     ])
+    // }
     
     private func getLogLevel(_ id: String?) -> ADJLogLevel {
         switch id?.lowercased() {

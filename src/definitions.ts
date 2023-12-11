@@ -48,7 +48,6 @@ export declare type AdjustIdfaResponse = {
 };
 
 export interface AdjustSDKPlugin {
-  ping(options: { value: string }): Promise<{ value: string }>;
   initSDK(options: AdjustInit): void;
   trackEvent(event: AdjustEvent): void;
   trackEventCallbackId(event: AdjustCallbackId): void;

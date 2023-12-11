@@ -1,6 +1,6 @@
 {
   "name": "adjust-capacitor-plugin",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "iosSdkVersion": "4.36.0",
   "androidSdkVersion": "4.36.0",
   "buildNumber": "10",
@@ -16,14 +16,14 @@
     "ios/Plugin/",
     "AdjustCapacitorPlugin.podspec"
   ],
-  "author": "fun2ex",
+  "author": "fieprmxxwx83",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/fun2ex/adjust-capacitor-plugin.git"
+    "url": "git+https://github.com/fieprmxxwx83/adjust-capacitor-plugin.git"
   },
   "bugs": {
-    "url": "https://github.com/fun2ex/adjust-capacitor-plugin/issues"
+    "url": "https://github.com/fieprmxxwx83/adjust-capacitor-plugin/issues"
   },
   "keywords": [
     "capacitor",
