@@ -328,11 +328,6 @@ acorn@^7.4.0:
   resolved "https://registry.yarnpkg.com/acorn/-/acorn-7.4.1.tgz#feaed255973d2e77555b83dbc08851a6c63520fa"
   integrity sha512-nQyp0o1/mNdbTO1PO6kHkwSrmgZ0MT/jCCpNiwbUjGoRN4dlBhqJtoQuCnEOKzgTVwg0ZWiCoQy6SxMebQVh8A==
 
-"adjust-capacitor-plugin@file:.":
-  version "1.0.0"
-  dependencies:
-    adjust-capacitor-plugin "file:../../../Bolo/Library/Caches/Yarn/v6/npm-adjust-capacitor-plugin-1.0.0-215b2d12-7a59-406b-be71-40a9a4c1b7b9-1702279673980/node_modules/adjust-capacitor-plugin"
-
 ajv@^6.10.0, ajv@^6.12.4:
   version "6.12.6"
   resolved "https://registry.yarnpkg.com/ajv/-/ajv-6.12.6.tgz#baf5a62e802b07d977034586f8c3baf5adf26df4"
