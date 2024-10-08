@@ -1,5 +1,5 @@
 {
-  "name": "adjust-capacitor-plugin",
+  "name": "@omedom/adjust-capacitor-plugin",
   "version": "6.0.0",
   "iosSdkVersion": "4.36.0",
   "androidSdkVersion": "4.36.0",
@@ -16,14 +16,14 @@
     "ios/Plugin/",
     "AdjustCapacitorPlugin.podspec"
   ],
-  "author": "fieprmxxwx83",
+  "author": "omedom",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/fieprmxxwx83/adjust-capacitor-plugin.git"
+    "url": "git+https://github.com/omedom/adjust-capacitor-plugin.git"
   },
   "bugs": {
-    "url": "https://github.com/fieprmxxwx83/adjust-capacitor-plugin/issues"
+    "url": "https://github.com/omedom/adjust-capacitor-plugin/issues"
   },
   "keywords": [
     "capacitor",
