@@ -13,17 +13,17 @@ npx cap sync
 
 <docgen-index>
 
-- [`initSDK(...)`](#initsdk)
-- [`trackEvent(...)`](#trackevent)
-- [`trackEventCallbackId(...)`](#trackeventcallbackid)
-- [`trackRevenueEvent(...)`](#trackrevenueevent)
-- [`addSessionCallbackParameter(...)`](#addsessioncallbackparameter)
-- [`addSessionPartnerParameter(...)`](#addsessionpartnerparameter)
-- [`getAdid()`](#getadid)
-- [`showTrackingDialog()`](#showtrackingdialog)
-- [`getTrackingStatus()`](#gettrackingstatus)
-- [`getIDFA()`](#getidfa)
-- [Type Aliases](#type-aliases)
+* [`initSDK(...)`](#initsdk)
+* [`trackEvent(...)`](#trackevent)
+* [`trackEventCallbackId(...)`](#trackeventcallbackid)
+* [`trackRevenueEvent(...)`](#trackrevenueevent)
+* [`addSessionCallbackParameter(...)`](#addsessioncallbackparameter)
+* [`addSessionPartnerParameter(...)`](#addsessionpartnerparameter)
+* [`getAdid()`](#getadid)
+* [`showTrackingDialog()`](#showtrackingdialog)
+* [`getTrackingStatus()`](#gettrackingstatus)
+* [`getIDFA()`](#getidfa)
+* [Type Aliases](#type-aliases)
 
 </docgen-index>
 
@@ -40,7 +40,8 @@ initSDK(options: AdjustInit) => void
 | ------------- | ------------------------------------------------- |
 | **`options`** | <code><a href="#adjustinit">AdjustInit</a></code> |
 
----
+--------------------
+
 
 ### trackEvent(...)
 
@@ -52,7 +53,8 @@ trackEvent(event: AdjustEvent) => void
 | ----------- | --------------------------------------------------- |
 | **`event`** | <code><a href="#adjustevent">AdjustEvent</a></code> |
 
----
+--------------------
+
 
 ### trackEventCallbackId(...)
 
@@ -64,7 +66,8 @@ trackEventCallbackId(event: AdjustCallbackId) => void
 | ----------- | ------------------------------------------------------------- |
 | **`event`** | <code><a href="#adjustcallbackid">AdjustCallbackId</a></code> |
 
----
+--------------------
+
 
 ### trackRevenueEvent(...)
 
@@ -76,7 +79,8 @@ trackRevenueEvent(event: AdjustRevenue) => void
 | ----------- | ------------------------------------------------------- |
 | **`event`** | <code><a href="#adjustrevenue">AdjustRevenue</a></code> |
 
----
+--------------------
+
 
 ### addSessionCallbackParameter(...)
 
@@ -88,7 +92,8 @@ addSessionCallbackParameter(options: AdjustSessionOptions) => void
 | ------------- | --------------------------------------------------------------------- |
 | **`options`** | <code><a href="#adjustsessionoptions">AdjustSessionOptions</a></code> |
 
----
+--------------------
+
 
 ### addSessionPartnerParameter(...)
 
@@ -100,7 +105,8 @@ addSessionPartnerParameter(options: AdjustSessionOptions) => void
 | ------------- | --------------------------------------------------------------------- |
 | **`options`** | <code><a href="#adjustsessionoptions">AdjustSessionOptions</a></code> |
 
----
+--------------------
+
 
 ### getAdid()
 
@@ -110,7 +116,8 @@ getAdid() => Promise<AdjustAdidResponse>
 
 **Returns:** <code>Promise&lt;<a href="#adjustadidresponse">AdjustAdidResponse</a>&gt;</code>
 
----
+--------------------
+
 
 ### showTrackingDialog()
 
@@ -120,7 +127,8 @@ showTrackingDialog() => Promise<AdjustTrackingStatusResponse>
 
 **Returns:** <code>Promise&lt;<a href="#adjusttrackingstatusresponse">AdjustTrackingStatusResponse</a>&gt;</code>
 
----
+--------------------
+
 
 ### getTrackingStatus()
 
@@ -130,7 +138,8 @@ getTrackingStatus() => Promise<AdjustTrackingStatusResponse>
 
 **Returns:** <code>Promise&lt;<a href="#adjusttrackingstatusresponse">AdjustTrackingStatusResponse</a>&gt;</code>
 
----
+--------------------
+
 
 ### getIDFA()
 
@@ -140,57 +149,68 @@ getIDFA() => Promise<AdjustIdfaResponse>
 
 **Returns:** <code>Promise&lt;<a href="#adjustidfaresponse">AdjustIdfaResponse</a>&gt;</code>
 
----
+--------------------
+
 
 ### Type Aliases
+
 
 #### AdjustInit
 
 <code>{ appToken: string; environment?: <a href="#adjustenvironment">AdjustEnvironment</a>; logLevel?: <a href="#adjustloglevel">AdjustLogLevel</a>; }</code>
 
+
 #### AdjustEnvironment
 
 <code>'production' | 'sandbox'</code>
+
 
 #### AdjustLogLevel
 
 <code>'none' | 'error' | 'warning' | 'info' | 'verbose'</code>
 
+
 #### AdjustEvent
 
 <code>{ eventToken: string; callbackParams?: <a href="#record">Record</a>&lt;string, string&gt;; }</code>
+
 
 #### Record
 
 Construct a type with a set of properties K of type T
 
-<code>{
-[P in K]: T;
-}</code>
+<code>{ [P in K]: T; }</code>
+
 
 #### AdjustCallbackId
 
 <code>{ eventToken: string; id: string; }</code>
 
+
 #### AdjustRevenue
 
 <code>{ eventToken: string; currency: string; amount: number; orderId?: string; }</code>
+
 
 #### AdjustSessionOptions
 
 <code>{ key: string; value: string; }</code>
 
+
 #### AdjustAdidResponse
 
 <code>{ id: string; }</code>
+
 
 #### AdjustTrackingStatusResponse
 
 <code>{ status: <a href="#adjusttrackingauthorizationstatus">AdjustTrackingAuthorizationStatus</a>; }</code>
 
+
 #### AdjustTrackingAuthorizationStatus
 
 <code>0 | 1 | 2 | 3 | -1</code>
+
 
 #### AdjustIdfaResponse
 
