@@ -5,7 +5,7 @@ Adjust SDK plugin for Capacitor
 ## Install
 
 ```bash
-npm install adjust-capacitor-plugin
+npm install @omedom/adjust-capacitor-plugin
 npx cap sync
 ```
 
